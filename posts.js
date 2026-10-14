@@ -14,9 +14,9 @@ window.POSTS = [
     images: [],
   },
   {
-    date: "2026-05-26", featured: true,
-    en: { title: "Taiwan Scholarship", text: "I got the Ministry of Education Taiwan Scholarship for my master's at NTU. So much financial burden off my head. I love Taiwan." },
-    zh: { title: "獲得臺灣獎學金", text: "我獲得教育部臺灣獎學金，支持我在臺大攻讀碩士。肩上的經濟壓力終於減輕許多。我愛臺灣！" },
+    date: "2026-05-26",
+    en: { title: "On the scholarship list", text: "I made it onto the candidate list for the Ministry of Education Taiwan Scholarship, for my master's at NTU. One big step closer — fingers crossed for the final confirmation." },
+    zh: { title: "進入獎學金候選名單", text: "我進入教育部臺灣獎學金的候選人名單，支持我在臺大攻讀碩士。又往前邁進一大步，期待最後的確認！" },
     images: [
       { src: "2026-05-26-moe-notice.jpg", w: 924, h: 1290, en: "2026 MOE Taiwan Scholarship candidate list notice", zh: "2026 年教育部臺灣獎學金候選人名單公告" },
       { src: "2026-05-26-moe-list.jpg", w: 924, h: 1295, en: "Pages of the candidate list", zh: "候選人名單頁面" },
@@ -68,6 +68,12 @@ window.POSTS = [
     images: [],
   },
   {
+    date: "2026-07-31", featured: true,
+    en: { title: "Scholarship confirmed", text: "My official MOE Taiwan Scholarship letter arrived by email. It's real now. So much financial burden off my head. I love Taiwan." },
+    zh: { title: "獎學金確定了", text: "教育部臺灣獎學金的正式通知信寄到我的信箱了，這下是真的了！肩上的經濟壓力終於減輕許多。我愛臺灣！" },
+    images: [],
+  },
+  {
     date: "2026-08-03",
     en: { title: "Visa application submitted", text: "Applied for my student visa. Very happy." },
     zh: { title: "遞交簽證申請", text: "順利遞交學生簽證申請，非常開心！" },
@@ -96,5 +102,47 @@ window.POSTS = [
     en: { title: "First meal at NTU", text: "Checked in to my student dormitory and had my first meal at NTU. Taiwan, here I am." },
     zh: { title: "在臺大的第一餐", text: "入住學生宿舍，在臺大吃了第一餐。臺灣，我來了！" },
     images: [{ src: "2026-08-27-first-meal.jpg", w: 1073, h: 1400, en: "Rice bowl with grilled chicken, egg and vegetables", zh: "烤雞肉、蛋與蔬菜的飯碗" }],
+  },
+  {
+    date: "2026-09-01",
+    en: { title: "Campus tour", text: "Joined the NTU campus tour — my first event at NTU. The organizers even walked us through earthquake and typhoon safety." },
+    zh: { title: "校園導覽", text: "參加臺大校園導覽，這是我在臺大的第一個活動。主辦團隊還教我們地震和颱風的防災知識。" },
+    images: [{ src: "2026-09-01-campus-tour.jpg", w: 1094, h: 1400, en: "Students demonstrating earthquake and typhoon safety during the campus tour", zh: "校園導覽中示範地震與颱風防災的學生" }],
+  },
+  {
+    date: "2026-09-03",
+    en: { title: "Student ID", text: "Got my NTU student ID card. My face in the photo looks so bad." },
+    zh: { title: "拿到學生證", text: "拿到臺大學生證了。證件照裡的我看起來真的不太好看。" },
+    images: [{ src: "2026-09-03-student-id.jpg", w: 1125, h: 940, en: "My National Taiwan University student ID card", zh: "我的國立臺灣大學學生證" }],
+  },
+  {
+    date: "2026-09-05", featured: true,
+    en: { title: "Back at NTHU", text: "Visited National Tsing Hua University. Such a nostalgic feeling — it brought back my 2023 internship days." },
+    zh: { title: "重回清華", text: "回到國立清華大學走走，滿滿的懷念，想起 2023 年在這裡實習的日子。" },
+    images: [{ src: "2026-09-05-nthu.jpg", w: 1125, h: 1212, en: "National Tsing Hua University emblem", zh: "國立清華大學校徽" }],
+  },
+  {
+    date: "2026-09-08",
+    en: { title: "Birthday", text: "Birthday today! Feels bad to say I'm getting old." },
+    zh: { title: "生日", text: "今天是我的生日！要承認自己變老，還真有點難過。" },
+    images: [],
+  },
+  {
+    date: "2026-09-14", featured: true,
+    en: { title: "GIPO orientation", text: "Orientation day at my institute, the Graduate Institute of Photonics and Optoelectronics." },
+    zh: { title: "光電所新生說明會", text: "參加我所屬的光電工程學研究所新生說明會。" },
+    images: [{ src: "2026-09-14-gipo-orientation.jpg", w: 1125, h: 821, en: "Group photo at the GIPO orientation", zh: "光電所新生說明會合照" }],
+  },
+  {
+    date: "2026-09-23",
+    en: { title: "Dinner with the lab", text: "First dinner party hosted by my professor. The chicken was delicious." },
+    zh: { title: "教授請吃晚餐", text: "教授第一次請我們吃晚餐，雞肉超好吃！" },
+    images: [{ src: "2026-09-23-professor-dinner.jpg", w: 1280, h: 576, en: "Group photo after dinner with my professor", zh: "與教授聚餐後的合照" }],
+  },
+  {
+    date: "2026-10-13",
+    en: { title: "Permits, permits", text: "My international driving permit got approved — let's see how long it takes to reach Taiwan. I also applied for a work permit in Taiwan for summer internships. I don't know yet if I'll get one 🤞 Hoping for the best." },
+    zh: { title: "各種許可證", text: "國際駕照申請通過了，看看要多久才會寄到臺灣。我也申請了在臺灣的工作許可，為暑期實習做準備。還不知道能不能拿到 🤞 希望一切順利。" },
+    images: [{ src: "2026-10-13-idp.jpg", w: 817, h: 516, en: "International driving permit, with personal numbers blurred", zh: "國際駕照（個人號碼已模糊處理）" }],
   },
 ];
