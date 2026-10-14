@@ -1,6 +1,10 @@
 // Traditional Chinese (Taiwan) strings. English lives in the HTML itself.
 const zh = {
-  "nav.journey": "歷程", "nav.work": "作品", "nav.research": "研究", "nav.videos": "影片", "nav.contact": "聯絡",
+  "nav.journey": "歷程", "nav.work": "作品", "nav.research": "研究", "nav.videos": "影片", "nav.journal": "日誌", "nav.contact": "聯絡",
+  "jhome.h": "日誌", "jhome.lede": "從錄取到抵達臺灣，一路上的紀錄。", "jhome.cta": "閱讀全部日誌 →",
+  "journal.h": "日誌",
+  "journal.note": "2026 年的生活紀錄，依事件發生的日期標示；我從 2026 年 10 月開始在這裡發布。",
+  "journal.home": "← 回到首頁",
   "hero.badge": "開放 2027 寒假與暑期實習機會",
   "hero.kicker": "你好，我是",
   "hero.tagline": "從程式碼，走向光子。",
@@ -64,7 +68,8 @@ const videos = [
   ["SsZzlsFqhTM", "Self-Hosted Jenkins CI/CD with Docker & Tailscale"],
 ];
 
-document.getElementById("videoGrid").innerHTML = videos.map(([id, title]) => `
+const videoGrid = document.getElementById("videoGrid");
+if (videoGrid) videoGrid.innerHTML = videos.map(([id, title]) => `
   <a class="video" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">
     <div class="thumb"><img src="https://i.ytimg.com/vi/${id}/mqdefault.jpg" alt="" loading="lazy"></div>
     <p>${title}</p>
@@ -80,6 +85,7 @@ function setLang(lang) {
   document.documentElement.lang = lang === "zh" ? "zh-Hant" : "en";
   document.querySelectorAll(".lang [data-l]").forEach(s => s.classList.toggle("on", s.dataset.l === lang));
   try { localStorage.setItem("lang", lang); } catch {}
+  dispatchEvent(new CustomEvent("langchange", { detail: lang }));
 }
 
 let lang = new URLSearchParams(location.search).get("lang");
@@ -92,18 +98,20 @@ document.getElementById("langToggle").addEventListener("click", () => {
   setLang(lang);
 });
 
-// Journey: light up nodes and fill the beam as you scroll
+// Journey: light up nodes and fill the beam as you scroll (home page only)
 const beam = document.querySelector(".beam");
-const io = new IntersectionObserver(entries => {
-  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("lit"); });
-}, { rootMargin: "0px 0px -25% 0px" });
-beam.querySelectorAll(".node").forEach(n => io.observe(n));
+if (beam) {
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("lit"); });
+  }, { rootMargin: "0px 0px -25% 0px" });
+  beam.querySelectorAll(".node").forEach(n => io.observe(n));
 
-function fillBeam() {
-  const r = beam.getBoundingClientRect();
-  const p = Math.min(1, Math.max(0, (innerHeight * 0.75 - r.top) / r.height));
-  beam.style.setProperty("--progress", (p * 100).toFixed(1) + "%");
+  const fillBeam = () => {
+    const r = beam.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, (innerHeight * 0.75 - r.top) / r.height));
+    beam.style.setProperty("--progress", (p * 100).toFixed(1) + "%");
+  };
+  addEventListener("scroll", fillBeam, { passive: true });
+  addEventListener("resize", fillBeam);
+  fillBeam();
 }
-addEventListener("scroll", fillBeam, { passive: true });
-addEventListener("resize", fillBeam);
-fillBeam();
