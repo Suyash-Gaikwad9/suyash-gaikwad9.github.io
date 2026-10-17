@@ -147,8 +147,8 @@ window.POSTS = [
   },
   {
     date: "2026-10-16",
-    en: { title: "Reunion with NTHU seniors", text: "Met my NTHU seniors from the 2023 TEEP internship. So happy to talk to everyone, remembering all the good times as well as the bad ones." },
-    zh: { title: "與清華學長姐重聚", text: "和 2023 年清華 TEEP 實習時的學長姐聚餐。能和大家聊天真開心，一起回憶那些美好、也不那麼美好的時光。" },
+    en: { title: "Reunion with NTHU seniors", text: "Met my NTHU seniors from the 2023 TEEP internship. So happy to talk to everyone and remember all the good times." },
+    zh: { title: "與清華學長姐重聚", text: "和 2023 年清華 TEEP 實習時的學長姐聚餐。能和大家聊天真開心，一起回憶那些美好的時光。" },
     images: [{ src: "2026-10-16-nthu-seniors.jpg", w: 1400, h: 1051, en: "Dinner with my NTHU seniors from the 2023 TEEP internship", zh: "與 2023 年清華 TEEP 實習學長姐聚餐" }],
   },
 ];
