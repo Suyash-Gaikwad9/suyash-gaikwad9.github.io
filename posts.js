@@ -145,4 +145,10 @@ window.POSTS = [
     zh: { title: "各種許可證", text: "國際駕照申請通過了，看看要多久才會寄到臺灣。我也申請了在臺灣的工作許可，為暑期實習做準備。還不知道能不能拿到 🤞 希望一切順利。" },
     images: [{ src: "2026-10-13-idp.jpg", w: 817, h: 516, en: "International driving permit, with personal numbers blurred", zh: "國際駕照（個人號碼已模糊處理）" }],
   },
+  {
+    date: "2026-10-16",
+    en: { title: "Reunion with NTHU seniors", text: "Met my NTHU seniors from the 2023 TEEP internship. So happy to talk to everyone, remembering all the good times as well as the bad ones." },
+    zh: { title: "與清華學長姐重聚", text: "和 2023 年清華 TEEP 實習時的學長姐聚餐。能和大家聊天真開心，一起回憶那些美好、也不那麼美好的時光。" },
+    images: [{ src: "2026-10-16-nthu-seniors.jpg", w: 1400, h: 1051, en: "Dinner with my NTHU seniors from the 2023 TEEP internship", zh: "與 2023 年清華 TEEP 實習學長姐聚餐" }],
+  },
 ];
