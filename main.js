@@ -9,7 +9,7 @@ const zh = {
   "hero.kicker": "你好，我是",
   "hero.tagline": "從程式碼，走向光子。",
   "hero.sub": "國立臺灣大學光電工程學研究所碩士生，具備資訊工程與雲端平台工程背景。",
-  "hero.cta1": "與我聯絡", "hero.cta2": "看看我的歷程",
+  "hero.cta1": "與我聯絡", "hero.cta2": "看看我的歷程", "hero.cv": "下載履歷 ↓", "contact.cv": "履歷（PDF）↓",
   "hero.photo": "國立臺灣大學・臺北",
   "stat.pub": "篇論文發表", "stat.copy": "項軟體著作權", "stat.vid": "部教學影片", "stat.country": "從印度到臺灣",
 
