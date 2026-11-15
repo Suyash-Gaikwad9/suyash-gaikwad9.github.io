@@ -151,4 +151,46 @@ window.POSTS = [
     zh: { title: "與清華學長姐重聚", text: "和 2023 年清華 TEEP 實習時的學長姐聚餐。能和大家聊天真開心，一起回憶那些美好的時光。" },
     images: [{ src: "2026-10-16-nthu-seniors.jpg", w: 1400, h: 1051, en: "Dinner with my NTHU seniors from the 2023 TEEP internship", zh: "與 2023 年清華 TEEP 實習學長姐聚餐" }],
   },
+  {
+    date: "2026-10-18",
+    en: { title: "A break at Fulong", text: "Went to Fulong for a small trip. Tired of the weekly routine, I needed a short break before the midterms." },
+    zh: { title: "福隆小旅行", text: "去福隆小旅行。厭倦了每週的例行公事，期中考前需要好好放鬆一下。" },
+    images: [{ src: "2026-10-18-fulong.jpg", w: 1050, h: 1400, en: "Looking out at the beach and river mouth at Fulong", zh: "眺望福隆海灘與河口" }],
+  },
+  {
+    date: "2026-10-26",
+    en: { title: "A new SIM card", text: "Got my new SIM card. I didn't expect a NT$2,900 deposit for a permanent SIM card — with only NT$500 left in my bank account, the next 20 days will be tough. On top of that, the plan costs NT$588 every month." },
+    zh: { title: "辦了新門號", text: "辦了新的 SIM 卡。沒想到正式門號要押金 2,900 元，而我的戶頭只剩 500 元，接下來 20 天會很難熬，之後每月還要付 588 元月租。" },
+    images: [{ src: "2026-10-26-sim-card.jpg", w: 1050, h: 1400, en: "Mobile plan with the NT$2,900 deposit and NT$588 monthly fee", zh: "押金 2,900 元、月租 588 元的門號方案" }],
+  },
+  {
+    date: "2026-10-27",
+    en: { title: "My first NTU midterm", text: "My first midterm at NTU — and my first official exam since my bachelor's final exams in March 2024. The subject: Simulation of Light Scattering and Propagation." },
+    zh: { title: "臺大第一次期中考", text: "在臺大的第一次期中考，也是自從 2024 年 3 月大學期末考之後的第一場正式考試，科目是光散射與傳播模擬。" },
+    images: [{ src: "2026-10-27-first-midterm.jpg", w: 1050, h: 1400, en: "Midterm quiz on finite-difference time-domain (FDTD) simulation", zh: "時域有限差分法（FDTD）期中小考題目" }],
+  },
+  {
+    date: "2026-10-30",
+    en: { title: "My first Fitbit Air", text: "Got my first Fitbit Air — time to track my health. It isn't sold in Taiwan, so I had to find someone to import it for me. Finally here." },
+    zh: { title: "我的第一支 Fitbit Air", text: "入手人生第一支 Fitbit Air，開始追蹤健康。它在臺灣沒有販售，必須找人幫忙代購進口，終於到手了！" },
+    images: [{ src: "2026-10-30-fitbit.jpg", w: 1050, h: 1400, en: "Fitbit Air box and warranty card", zh: "Fitbit Air 包裝盒與保固卡" }],
+  },
+  {
+    date: "2026-11-04", featured: true,
+    en: { title: "Taiwan Scholarship welcome party", text: "Attended the welcome party for MOE Taiwan Scholarship recipients at the Taipei World Trade Center." },
+    zh: { title: "臺灣獎學金歡迎會", text: "參加在臺北世貿中心舉辦的教育部臺灣獎學金受獎生歡迎會。" },
+    images: [{ src: "2026-11-04-moe-welcome.jpg", w: 1050, h: 1400, en: "Me in front of the Taiwan Scholarship welcome party banner", zh: "在臺灣獎學金歡迎會背板前" }, { src: "2026-11-04-moe-badge.jpg", w: 1050, h: 1400, en: "My name badge at the welcome party", zh: "歡迎會上的名牌" }],
+  },
+  {
+    date: "2026-11-09",
+    en: { title: "The big Semiconductor Devices midterm", text: "My big midterm exam for Physics of Semiconductor Devices. The seating plan and the classroom were insane — I learned that running an exam for 250 students is not easy." },
+    zh: { title: "半導體元件物理期中考", text: "半導體元件物理的大型期中考。座位表和教室的規模都很驚人，才知道要辦一場 250 人的考試真的不容易。" },
+    images: [{ src: "2026-11-09-seating-plan.jpg", w: 1400, h: 1050, en: "Exam seating plan (classmates' names blurred)", zh: "考場座位表（同學姓名已模糊處理）" }],
+  },
+  {
+    date: "2026-11-13",
+    en: { title: "One sheet, both sides", text: "My last midterm, for Light-Emitting Semiconductor Physics. We could bring a single sheet of paper printed on both sides, and Claude helped me a lot to prepare it. It was a great exam for me — I was able to solve many of the questions." },
+    zh: { title: "一張雙面小抄", text: "最後一場期中考，科目是發光半導體物理。規定可以攜帶一張雙面列印的紙，Claude 幫了我很多忙準備這張紙。這場考試表現很好，我解出了很多題目！" },
+    images: [{ src: "2026-11-13-cheat-sheet.jpg", w: 924, h: 2000, en: "My double-sided formula sheet for the midterm", zh: "期中考使用的雙面公式紙" }],
+  },
 ];
